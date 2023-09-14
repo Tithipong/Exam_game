@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56e639b1fa06dcb409f613d4e1e6a14b
+guid: 647940cb12eab3a46b7fee2897c91e7f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,91 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Player-Front-idel-export-export_0
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 0
-        width: 27
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4cfc16c4fb0644446aa90cfe8768e742
-      internalID: -1692198099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player-Front-idel-export-export_1
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 0
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 106cbbac78769eb4a8594c6157cb5b1a
-      internalID: -128624099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player-Front-idel-export-export_2
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 0
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fa892e89abfa6e43a69fa4776c3e8c0
-      internalID: -1400732767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player-Front-idel-export-export_3
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 0
-        width: 27
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29dc04b991fe6d1418c3d069833dd1aa
-      internalID: 219639526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -229,11 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Player-Front-idel-export-export_0: -1692198099
-      Player-Front-idel-export-export_1: -128624099
-      Player-Front-idel-export-export_2: -1400732767
-      Player-Front-idel-export-export_3: 219639526
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
