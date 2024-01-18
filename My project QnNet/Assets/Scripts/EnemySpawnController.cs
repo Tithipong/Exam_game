@@ -1,18 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemySpawnController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static EnemySpawnController Instance;
+    //private GameObject selectedEnemy;
+
+    private void Awake()
     {
-        
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TriggerRandomBattle()
     {
-        
+        // Select an enemy
+        GameObject[] enemyTypes = GameObject.FindGameObjectsWithTag("Enemy");
+        int enemyID = Random.Range(0, enemyTypes.Length);
+        //selectedEnemy  = enemyTypes[enemyID];
+
+        SceneManager.LoadScene("BattleScene");
     }
 }

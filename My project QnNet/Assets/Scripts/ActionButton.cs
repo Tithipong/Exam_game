@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MeleeButton : MonoBehaviour
+public class ActionButton : MonoBehaviour
 {
     [SerializeField] private bool physical;
     private GameObject hero;

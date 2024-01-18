@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float minSpawnRate = 0.1f;
+    public float maxSpawnRate = 1.0f;
+    public EnemySpawnController enemySpawnController;
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.gameObject.CompareTag("BattleArea"))
+        {
+            TryTriggerEncounter();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void TryTriggerEncounter()
     {
-        
+        float randomSpawnRate = Random.Range(minSpawnRate, maxSpawnRate);
+        if (Random.value < randomSpawnRate & enemySpawnController != null)
+        {
+            enemySpawnController.TriggerRandomBattle();
+        }
     }
 }
